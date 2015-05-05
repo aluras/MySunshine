@@ -7,6 +7,8 @@ package com.example.aluras.sunshine.app;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -29,6 +31,12 @@ public  class ForecastFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
+
+
+        Menu menu = MenuInflater.inflate(R.menu.forecastfragment, container);
+
+        rootView.createContextMenu();
 
         ArrayList<String> dados = new ArrayList<String>();
         dados.add("Hoje - Sol - 28º/21º");

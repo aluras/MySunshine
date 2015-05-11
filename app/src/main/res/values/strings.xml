@@ -5,4 +5,5 @@
     <string name="permlab_network">Acesso a rede</string>
     <string name="permdesc_network">Permite que a aplicação
     acesso recursos da rede.</string>
+    <string name="title_activity_detail">DetailActivity</string>
 </resources>

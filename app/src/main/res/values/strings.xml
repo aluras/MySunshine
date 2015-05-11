@@ -2,4 +2,7 @@
     <string name="app_name">Sunshine</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="permlab_network">Acesso a rede</string>
+    <string name="permdesc_network">Permite que a aplicação
+    acesso recursos da rede.</string>
 </resources>
